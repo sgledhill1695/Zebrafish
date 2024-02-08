@@ -1,0 +1,892 @@
+/* SITE WIDE STYLES */
+.custom-nav-links{
+    color: white;
+}
+body {
+    overflow-x:hidden;  
+}
+@font-face {
+    font-family: customFont;
+    src: url(../fonts/oraqle/oraqleScript.woff);
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.custom-text{
+    font-family: agenda, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size:18px
+}
+/* NAVBAR */
+.navbar{
+    padding-top:0.1rem;
+    padding-bottom:0.1rem;
+    position: fixed !important;
+    z-index: 200000000000;
+
+}
+
+.nav-link{
+    font-family: customFont;
+    font-size: 30px;
+    color: white !important;
+}
+.nav-link:hover{
+    color: #be94ff !important;
+}
+
+.navbar{
+    transition: background-color 0.5s ease;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 200;
+}
+.navbar span:hover{
+color: #BE94FF;
+}
+.navbar img{
+opacity: 0;
+}
+.navbar-two {
+background-color: #000000;
+z-index: 6000000;
+}
+.navbar-two img {
+opacity: 1;
+    }
+.nav-item{
+    padding-left: 10px;
+    padding-right:10px;
+}
+.nav-link{
+    padding-left: 10px;
+    padding-right:10px;
+}
+.navbar-scrolled{
+    transition: background-color 0.5s ease;
+    background-color: #e1e1e1;
+    color: #000000 !important;
+}
+.navbar-scrolled .nav-link{
+    transition: color 0.5s ease;
+    color: #000000 !important;
+}
+.navbar-scrolled .nav-link:hover{
+    color: #be94ff !important;
+}
+.navbar-scrolled span{
+    color: #000000 !important;
+}
+.navbar-scrolled span:hover{
+    color: #BE94FF !important;
+}
+.navbar-scrolled img{
+    animation: fade-in-logo 1s forwards; 
+}
+    @keyframes fade-in-logo {
+        from{
+          opacity: 0;
+        }
+        to {
+          opacity: 1;     
+        }
+      }
+
+.navbar-scrolled-two{
+    transition: background-color 0.5s ease;
+    background-color: #000000;
+}
+.navbar-scrolled-two .nav-link{
+    transition: color 0.5s ease;
+    color: #ffffff !important;
+}
+.navbar-scrolled-two .nav-link:hover{
+    color: #be94ff !important;
+}
+.navbar-scrolled-two span{
+    color: #ffffff !important;
+}
+.navbar-scrolled-two span:hover{
+    color: #BE94FF !important;
+}
+.navbar-scrolled-two img{
+    animation: fade-in-logo-two 1s forwards;  
+    }
+    @keyframes fade-in-logo-two {
+        from{
+          opacity: 0;
+        }
+        to {
+          opacity: 1;     
+        }
+      }
+.navbar-smallscreen{
+    background-color: #000000;
+}
+.navbar-smallscreen span{
+    color: white;
+}
+.navbar-smallscreen img{
+opacity: 1;
+}
+    
+/* HERO SECTION */
+ #hero-section .texture{
+    width: 100%;
+    height: 92vh;
+    position: absolute;
+    z-index: 6;
+    background: url(../images/asfalt-light.png);
+} 
+#hero-section .mobile-hero-image{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 5;
+    background-image: url(../images/mob-hero-image.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#hero-section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+#hero-section::after{
+    width:100%;
+    height: 100vh;
+    content:'';
+    position:absolute;
+    background: linear-gradient(180deg, rgba(0,0,0,0.4125000341933649) 0%, rgba(0,0,0,0.6786064767703957) 50%, rgba(0,0,0,0.8606793059020483) 83%);
+    z-index: 9;
+}
+
+#hero-section video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 5;
+    object-fit:cover;
+}
+
+#hero-section .mob-hero-image {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: 5;
+    object-fit:cover;
+}
+  #hero-section svg{
+     width:100%;
+     margin-top: 180px;
+     position: relative;
+     overflow: hidden;
+     height: 40vh; 
+    z-index: 200;
+}
+#hero-sub-header{
+    color: white;
+    font-size: 40px;
+    z-index: 50000000;
+    position: relative;
+    font-family: customFont;
+}
+/* THINKING OF UPDATE */
+#thinking{
+    padding-top:250px;
+background-image: url(../images/thinking.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+height: 80vh;
+}
+.thinking-title{
+    font-family: supersize-bk, sans-serif;
+    font-size:30px;
+    color: #353535;
+}
+/* HOW WE CAN HELP */
+.help-header{
+    font-family: customFont;
+    font-size : 100px;
+    color : #005550;
+}
+.help-sub-header{
+    font-family: supersize-bk, sans-serif;
+    font-size : 24px;
+    color : #333333;
+}
+.help-text{
+    font-family : Utile;
+    font-size : 21px;
+    color : #333333;
+}
+
+/* WEBSITE FEATURES */
+.features-header{
+    font-family: customFont;
+    font-size : 100px;
+    color: white; 
+}
+
+
+/* DESIGN PROCESS */
+ #design-process{
+    height: 30vh;
+    width:100%;
+} 
+
+/* SVG */
+  #design-process svg{
+    font-family: customFont;
+    font-size:100px;
+    position: absolute;
+    top: 1;
+    left: 0;
+}
+
+  #design-process video{
+    height: 38vh;
+    width: 100%;
+} 
+
+  #design-process svg rect{
+fill:white;
+mask: url(#mask);
+}
+.design-header{
+    font-family: supersize-bk, sans-serif;
+    font-size:30px;
+    color: white;
+}
+.design-text{
+    font-family: utile, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: white !important;
+    font-size:20px; 
+}
+.design-icon{
+    color: white;;
+}
+#design-process{
+    background-color: #005550;
+}
+#design-process-two{
+    background-color: #3e374a;
+    overflow: hidden;
+
+}
+#our-design-process-two{
+    padding-top: 100px;
+}
+.step-title{
+    font-family: customFont;
+    font-size:100px;
+    color: #546066;
+}
+.step-text{
+    font-family : Utile;
+    font-size : 18px;   
+}
+
+.design-process-icon{
+    color: #546066;
+}
+/* PRICE SECTION */
+
+#price-section svg{
+    padding-left:280px;
+    height: 50vh;
+}
+
+/* CONTACT */
+#contact-two{
+    background-color: #012869;
+}
+
+
+
+
+/* THEMES */
+
+/* PAGE TITLE */
+#title-section .texture{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 9;
+    background: url(../images/bedge-grunge.png);
+}
+#title-section .mobile-title-image{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 5;
+    background-image: url(../images/mob-hero-image.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title-section{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-section::after{
+    width:100%;
+    height: 50vh;
+    content:'';
+    position:absolute;
+    background: rgba(0, 0, 0, 0.063);
+    z-index: 6;
+}
+#title-section video {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 5;
+    object-fit:cover;
+}
+#title-section .hero-text {
+    z-index: 2000;
+}
+.page-title{
+    font-family: customFont;
+    font-size : 80px;
+    color: #ffffff;
+}
+.theme-header{
+    font-family: supersize-bk, sans-serif;
+    font-size : 30px;
+    color: #333333;
+}
+.theme-three-header{
+    font-family: supersize-bk, sans-serif;
+    font-size : 30px;
+    color: #ffffff;
+}
+.theme-text{
+    font-family : Utile;
+    font-size : 18px;
+    color : #333333;  
+}
+.theme-three-text{
+    font-family : Utile;
+    font-size : 18px;
+    color : #ffffff;  
+}
+.theme-one{
+    background-color: #ebebeb;
+}
+.theme-two{
+    background-color: #ffffff;
+}
+.theme-three{
+    background-color: #2e3548; 
+}
+.theme-five{
+    background-color: #ebebeb;
+}
+.theme-three-divider{
+    transform: rotateY(180deg);
+}
+.questions-title{
+    font-family: customFont;
+    font-size : 80px;
+    color: #232629; 
+}
+.questions-title-sub-title{
+    font-family: customFont;
+    font-size : 40px;
+    color: #232629; 
+}
+
+/* FAQ */
+#title-section-faq .texture{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 9;
+    background: url(../images/bedge-grunge.png);
+}
+#title-section-faq .mobile-title-image{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 5;
+    background-image: url(../images/mob-hero-image.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title-section-faq {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-section-faq::after{
+    width:100%;
+    height: 50vh;
+    content:'';
+    position:absolute;
+    background: rgba(0, 0, 0, 0.582);
+    z-index: 6;
+}
+
+#title-section-faq video {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 5;
+    object-fit:cover;
+}
+#title-section-faq .hero-text {
+    z-index: 2000;
+}
+.question{
+    color: #005550;
+    font-family: customFont;
+    font-size : 80px;
+}
+.answer{
+    color: #7daf81;
+    font-family: customFont;
+    font-size : 80px;
+}
+.question-text{
+    font-family: supersize-bk, sans-serif;
+    font-size : 20px;
+    color: #005550;
+}
+.question-text-two{
+    font-family : Utile;
+    font-size : 20px;
+}
+.custom-divider{
+    width: 20%;
+    color: #0b0b0b;
+    background-color:#000000;
+    height: 2.5px;
+    margin-top: 0;
+  }
+.custom-tick{
+    color: #be94ff;
+}
+.custom-tick-two{
+    color: #56d262;
+}
+.custom-cross{
+    color: red;
+}
+.custom-button{
+    background-color:rgba(0, 0, 0, 0);
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:8px;
+    padding-bottom:8px;
+    border-style : Solid;
+    border-color : #3e374a;
+    border-width : 2px;
+    border-radius : 26px;
+}
+
+#title-section-contact .texture{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 9;
+    background: url(../images/bedge-grunge.png);
+}
+#title-section-contact .mobile-title-image{
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 5;
+    background-image: url(../images/mob-hero-image.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+#title-section-contact {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-section-contact::after{
+    width:100%;
+    height: 50vh;
+    content:'';
+    position:absolute;
+    background: rgba(0, 0, 0, 0.096);
+    z-index: 6;
+}
+
+#title-section-contact video {
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    z-index: 5;
+    object-fit:cover;
+}
+#title-section-contact .hero-text {
+    z-index: 2000;
+}
+#title-section-contact .page-title {
+color: #ffffff
+}
+.custom-card{
+    background-color: rgb(228, 228, 228);
+    border-left: 5px solid #005550;
+}
+.custom-card-header{
+    font-family: customFont;
+    font-size : 48px;
+    color : #006837;
+}
+.custom-card-text{
+    font-family : Utile;
+    font-size : 20px;
+    color : #ffffff;
+}
+.custom-card-envelope svg{
+    height: 8vh;
+}
+
+.contact-num{
+    border: 2px solid #951616;
+    position: absolute;
+    color: rgb(25, 23, 23);
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-radius: 50px;
+}
+#contact-num-span{
+    padding-left: 5px;
+    font-family: agenda, sans-serif;
+    font-size : 18px;
+}
+
+.custom-shape-divider-top-1661182511 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+#pricing svg {
+    position: absolute;
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    transform: rotateY(180deg);
+    overflow: hidden;
+}
+
+.custom-shape-divider-top-1661182511 .shape-fill {
+    fill: #e0efff;
+}
+#pricing{
+
+     background-image: url(../images/sea-image-two.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; 
+}
+#pricing{
+    color: #333333;
+    overflow: hidden;
+}
+.pricing-header{
+    font-family: customFont;
+    font-size : 90px;
+    color : #333333;
+}
+.pricing-text{
+    font-family : Utile;
+}
+.price-card{
+    background-color: #fdfdfde3;
+    padding:20px;
+    border-radius: 6px;
+    border-top: 4px solid #3e374a;
+}
+#footer {
+    font-family : Utile;
+    background-color: #000000;
+    color: white;
+}
+.price-tick{
+    color:#12c836;
+}
+
+.custom-divider{
+    width: 100%;
+    color: #9f9f9f;
+    background-color:#9f9f9f;
+    height: 2.5px;
+    margin-top: 0;
+  }
+.custom-button-two{
+    color: white;
+    font-size: 15px;
+    background-color:#3e374a;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top:8px;
+    padding-bottom:12px;
+    border-style : Solid;
+    border-color : #3e374a;
+    border-width : 2px;
+    border-radius : 26px;
+}
+.custom-button-two:hover{
+    transition: background-color 0.5s ease;
+    background-color:#2e2a35;
+    border-color : #2e2a35;
+}
+
+#contact{
+    background-color: #000000;
+}
+.contact-header{
+    font-family: supersize-bk, sans-serif;
+    font-size : 20px;
+    color : #ffffff;
+}
+.contact-icon{
+    color: #353535;
+    cursor:auto;
+    background-color: white;
+    padding: 15px;
+    border-radius: 100px;
+    border: none;
+}
+#test{
+    padding-top: 80px;
+}
+/* .form-input-label{
+    font-family : Utile;
+    font-size: 20px;
+    display: block;
+} */
+/* .form-input{
+    display: block;
+    width: 100%;
+    font-family : Utile;
+    font-size: 20px;
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    outline:none;
+}
+.form-input:active   {
+    border-top:none !important;
+    border-left:none !important;
+    border-right:none !important;
+    outline:none;
+    border: none;
+} */
+
+.form-label{
+    font-family : Utile;
+    font-size : 18px;
+    color : #232629;
+}
+.contact-text{
+    font-family : Utile;
+    font-size : 18px;
+    color : #005550; 
+}
+
+.form-input-label{
+    font-family : Utile;
+    font-size : 18px;
+    color : #005550;
+}
+.form-input{
+display: block;
+width: 100%;
+border:none;
+border-bottom: 2px solid #005550;
+outline: none;
+font-family : Utile
+}
+.form-input:focus{
+
+    border-bottom: 2px solid #bc9212;
+
+    }
+
+.hero-link{
+    text-decoration: none;
+}
+#about-us{
+    background-color: #000000;
+}
+.about-us-header{
+    font-family : Oraqle Script;
+    font-size : 100px;
+    color: white;
+}
+.about-us-header{
+    font-family : Oraqle Script;
+    font-size : 100px;
+    color: white;
+}
+.about-us-sub-header{
+    font-family: supersize-bk, sans-serif;
+    font-size : 25px;
+    color: white; 
+}
+.about-us-text{
+    font-family : Utile;
+    font-size : 21px;
+    color : #FFFFFF;
+}
+#title-svg{
+ height: 13vh;
+}
+#title-svg-two{
+    height: 20vh;
+   }
+#what-we-do-logo{
+    height: 20vh;
+}
+#about-us-divider{
+    width: 100%;
+    overflow: hidden;
+}
+
+#about-us-divider svg{
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+.about-us-list{
+    font-family : Utile;
+    font-size: 20px;
+    color: white;
+    list-style: none;
+}
+.fish-drawing{
+    width: 100%;
+    padding-top: 200px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.about-us-title{
+    padding-bottom: 80px;
+}
+.swim-line svg{
+    width: 3%;
+}
+
+.swim-line-end svg{
+    width: 10%;
+}
+
+/* SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #070707; 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #4c3967;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8465b2;
+  }
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none !important;
+    color: #005550;
+}
+
+a:visited{
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+.modal-title{
+    font-family: supersize-bk, sans-serif;
+    color: #333333;
+}
+.order-now-text{
+    font-family : Utile;
+    font-size: 19px;
+}
+#submission-notification{
+    height: 100vh;
+}
+#submission-section{
+    background-color: #d2d2d2;
+}
+.submission-card{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15);
+}
+.fa-sliders-light{
+    color: white;
+}
+.step-title-mob{
+    font-family: customFont;
+    font-size:90px;
+    color: #546066; 
+}
+.custom-invalid-feedback{
+    color: red;
+    display:block;
+}
+.what-we-wont-do-list{
+    padding-left: 265px;
+}

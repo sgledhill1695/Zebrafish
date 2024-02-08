@@ -1,0 +1,103 @@
+/* HERO SECTION */
+
+/* HERO SVG */
+@media only screen and (max-width: 785px) {
+    #hero-section svg {
+        height: 28vh;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    #hero-section svg {
+        height: 24vh;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    #hero-section svg {
+        height: 21vh;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    #hero-section svg {
+        height: 16vh;
+    }
+  }
+  @media only screen and (max-width: 355px) {
+    #hero-section svg {
+        height: 12vh;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    #hero-section svg {
+        height: 8vh;
+    }
+  }
+/* TITLE SVG'S */
+
+/* SVG ONE */
+@media only screen and (max-width: 992px) {
+    #title-svg {
+        height: 10vh;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    #title-svg {
+        height: 8vh;
+    }
+  }
+
+  /* SVG TWO */
+   @media only screen and (max-width: 420px) {
+    #title-svg-two {
+        height: 18vh;
+    }
+  } 
+  @media only screen and (max-width: 380px) {
+    #title-svg-two {
+        height: 14vh;
+    }
+  } 
+  @media only screen and (max-width: 300px) {
+    #title-svg-two {
+        height: 10vh;
+    }
+  } 
+
+  /* OUR DESIGN PROCESS */
+  @media only screen and (max-width: 500px) {
+    #design-process svg {
+      font-size: 80px;
+    }
+  } 
+  @media only screen and (max-width: 425px) {
+    #design-process svg {
+      font-size: 60px;
+    }
+  } 
+  @media only screen and (max-width: 320px) {
+    #design-process svg {
+      font-size: 50px;
+    }
+  } 
+
+  @media only screen and (max-width: 460px) {
+    .step-title-mob {
+      font-size: 70px;
+    }
+  } 
+  
+  @media only screen and (max-width: 360px) {
+    .step-title-mob {
+      font-size: 55px;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    .what-we-wont-do-list {
+      padding-left: 0px;
+    }
+  }
+
+
+
+
+  

@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^(themes|order-now|faq|contact)$ $1.php [NC,L]
+RewriteRule ^(index|ie-identified|terms-and-conditions)$ $1.html [NC,L]
